@@ -1,0 +1,35 @@
+{
+  "name": "mnl-ai-website",
+  "version": "1.0.0",
+  "description": "MNL-AI - AI-powered websites and automation for Filipino entrepreneurs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "ai",
+    "websites",
+    "automation",
+    "filipino",
+    "entrepreneurs",
+    "web-design"
+  ],
+  "author": "Tristan Trinidad <tristan@mnl-ai.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnl-ai/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnl-ai/website/issues"
+  },
+  "homepage": "https://mnl-ai.com"
+}

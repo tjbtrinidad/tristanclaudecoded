@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNL-AI | Your Website. Upgraded by AI.</title>
+    <meta name="description" content="We build fast, modern websites for Filipino entrepreneurs — then automate what matters.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+    <div class="particles"></div>
+    <div class="cursor-gradient"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">MNL-AI</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" class="cta-btn">Book A Call</a></li>
+                <li><button class="theme-toggle" id="themeToggle">🌙</button></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content reveal-up">
+            <h1 class="shimmer">Your Website. Upgraded by AI.</h1>
+            <p class="typing-text">We build fast, modern websites for Filipino entrepreneurs — then automate what matters.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-btn magnetic">Book A Call</a>
+                <a href="#projects" class="btn-secondary magnetic">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats section-bg-animated">
+        <div class="stats-container">
+            <div class="stat-item floating-element">
+                <h3 class="stat-counter" data-target="10">0</h3>
+                <p>Websites Launched</p>
+            </div>
+            <div class="stat-item floating-element">
+                <h3 class="stat-counter" data-target="50">0</h3>
+                <p>Assets Created</p>
+            </div>
+            <div class="stat-item floating-element">
+                <h3 class="stat-counter" data-target="98">0</h3>
+                <p>Uptime</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title fade-up">About Us</h2>
+            <div class="about-content">
+                <p class="fade-up">I'm <strong>Tristan Trinidad</strong>, a Filipino entrepreneur committed to helping local businesses grow using smart automation and modern web solutions. Over the years, I've worked with business owners across different industries, helping them streamline operations and build websites that actually support their goals.</p>
+                <p class="fade-up">My mission is to make advanced technology simple and accessible for Filipino entrepreneurs. Whether you're a coach, seller, or service provider, you deserve tools that work 24/7 without the high cost or steep learning curve.</p>
+                <p class="fade-up">At <strong>MNL-AI</strong>, we don't just build websites—we build systems that give you back your time and help you grow with confidence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools">
+        <div class="container">
+            <h2 class="section-title fade-up">Powerful Tools at Your Service</h2>
+            <p class="fade-up" style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">These are the proven platforms we integrate to automate your workflows, boost your sales, and scale your business effortlessly.</p>
+            <div class="tools-grid">
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">🔄</div>
+                    <div class="tool-name">n8n</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">📈</div>
+                    <div class="tool-name">GHL</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">⚡</div>
+                    <div class="tool-name">Make.com</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">🤖</div>
+                    <div class="tool-name">OpenAI</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">🧠</div>
+                    <div class="tool-name">Claude</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">💬</div>
+                    <div class="tool-name">ManyChat</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">📢</div>
+                    <div class="tool-name">Slack</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">📱</div>
+                    <div class="tool-name">Telegram</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">✅</div>
+                    <div class="tool-name">ClickUp</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">📋</div>
+                    <div class="tool-name">Asana</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">🔗</div>
+                    <div class="tool-name">Zapier</div>
+                </div>
+                <div class="tool-item fade-up">
+                    <div class="tool-icon">💚</div>
+                    <div class="tool-name">WhatsApp</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title fade-up">What We Do</h2>
+            <div class="services-grid">
+                <div class="service-card featured fade-up">
+                    <div class="service-icon">🚀</div>
+                    <h3>Website Building</h3>
+                    <p>Professional websites that convert visitors into customers, built with modern design and AI optimization.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <div class="service-icon">🤖</div>
+                    <h3>Chatbots</h3>
+                    <p>AI-powered customer service that works 24/7 to answer questions and capture leads.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <div class="service-icon">🎨</div>
+                    <h3>Marketing Assets</h3>
+                    <p>Social media graphics, logos, and branded content that makes your business stand out.</p>
+                </div>
+                <div class="service-card fade-up">
+                    <div class="service-icon">⚡</div>
+                    <h3>AI Workflow Integration</h3>
+                    <p>Automate repetitive tasks and streamline your business operations with smart AI solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title fade-up">Our Process</h2>
+            <div class="process-grid">
+                <div class="process-step fade-up">
+                    <div class="process-number">1</div>
+                    <h3>Plan</h3>
+                    <p>We audit your digital presence and goals, then create a custom strategy that fits your business needs perfectly.</p>
+                </div>
+                <div class="process-step fade-up">
+                    <div class="process-number">2</div>
+                    <h3>Build</h3>
+                    <p>We design and develop your website using the latest technologies, ensuring it's fast, beautiful, and effective.</p>
+                </div>
+                <div class="process-step fade-up">
+                    <div class="process-number">3</div>
+                    <h3>Launch</h3>
+                    <p>We deploy and optimize for results, then provide ongoing support to help your business grow online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-up">
+                    <div class="project-image">E-Commerce Store</div>
+                    <div class="project-content">
+                        <h3>Modern Online Shop</h3>
+                        <p>Complete e-commerce solution with AI-powered product recommendations and automated customer support.</p>
+                    </div>
+                </div>
+                <div class="project-card fade-up">
+                    <div class="project-image">Landing Page</div>
+                    <div class="project-content">
+                        <h3>High-Converting Landing</h3>
+                        <p>Lead generation website with smart forms, A/B testing, and conversion optimization built-in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2 class="fade-up">Ready to upgrade your digital presence?</h2>
+            <p class="fade-up">Join successful Filipino entrepreneurs who chose MNL-AI to power their growth.</p>
+            <a href="#contact" class="cta-btn-white fade-up">Let's Start Building</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Get In Touch</h3>
+                <p>Ready to transform your business with AI-powered solutions?</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📧</a>
+                    <a href="#" class="social-link">📱</a>
+                    <a href="#" class="social-link">💬</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Start Your Project</h3>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MNL-AI. Your website — built to impress, powered to grow.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
